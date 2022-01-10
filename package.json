@@ -1,5 +1,5 @@
 {
-    "name": "diagnostic-dataserver",
+    "name": "diagnostic-server",
     "version": "3.0.0",
     "description": "Data server for diagnostic2",
     "scripts": {
