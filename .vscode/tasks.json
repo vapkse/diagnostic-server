@@ -1,0 +1,49 @@
+{
+    "version": "2.0.0",
+    "command": "arduino",
+    "tasks": [
+        {
+            "label": "verify",
+            "type": "shell",
+            "command": "arduino",
+            "args": [
+                "--verify",
+                "--board",
+                "arduino:avr:diecimila:cpu=atmega328",
+                "${file}"
+            ],
+            "problemMatcher": {
+                "owner": "external",
+                "fileLocation": [
+                    "relative",
+                    "${fileDirname}"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            },
+            "group": "build"
+        },
+        {
+            "label": "upload",
+            "type": "shell",
+            "command": "arduino",
+            "args": [
+                "--upload",
+                "--board",
+                "arduino:avr:diecimila:cpu=atmega328",
+                "--port",
+                "COM3",
+                "-v",
+                "${file}"
+            ],
+            "problemMatcher": [],
+            "group": "test"
+        }
+    ]
+}

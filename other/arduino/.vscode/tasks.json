@@ -1,0 +1,49 @@
+{
+    "version": "0.1.0",
+    "command": "C:/git/arduino/arduino-1.8.5/arduino.exe",
+    "isShellCommand": false,
+    "showOutput": "always",
+    "tasks": [
+        {
+            "isTestCommand": true,
+            "suppressTaskName": true,
+            "taskName": "328-Build",
+            "args": [
+                "--verify",
+                "--board",
+                "arduino:avr:diecimila",
+                "-v",
+                "client_usb/client_usb.ino"
+            ],
+            "problemMatcher": {
+                "owner": "external",
+                "fileLocation": [
+                    "relative",
+                    "_client_usb"
+                ],
+                "pattern": {
+                    "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "severity": 4,
+                    "message": 5
+                }
+            }
+        },
+        {
+            "isBuildCommand": true,
+            "suppressTaskName": true,
+            "taskName": "328-Upload",
+            "args": [
+                "--upload",
+                "--board",
+                "arduino:avr:diecimila",
+                "--port",
+                "COM23",
+                "-v",
+                "client_usb/client_usb.ino"
+            ]
+        }
+    ]
+}

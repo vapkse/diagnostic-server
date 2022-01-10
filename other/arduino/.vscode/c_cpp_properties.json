@@ -1,0 +1,100 @@
+{
+    "configurations": [
+        {
+            "defines": [
+                "ARDUINO=100"
+            ],
+            "name": "Arduino",
+            "includePath": [
+                "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/cores/arduino/",
+                "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/variants/standard/",
+                "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/",
+                "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/libraries/SPI/",
+                "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/libraries/SoftwareSerial/src",
+                "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/libraries/Wire/",
+                "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/avr/include/",
+                "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/avr/include/avr/",
+                "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/avr/include/compat/",
+                "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/avr/include/util/",
+                "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2/include/",
+                "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2/include-fixed/",
+                "C:/git/arduino/arduino-1.8.5/libraries/Bridge/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/Esplora/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/Ethernet/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/Firmata/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/GSM/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/LiquidCrystal/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/Robot_Control/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/RobotIRremote/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/Robot_Motor/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/SD/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/Servo/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/SpacebrewYun/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/Stepper/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/Temboo/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/TFT/src/",
+                "C:/git/arduino/arduino-1.8.5/libraries/WiFi/src/",
+                "C:/git/arduino/Sketches/libraries/AmpTransfer/",
+                "C:/git/arduino/Sketches/libraries/SerialBuffer/",
+                "C:/git/arduino/Sketches/libraries/Blink/",
+                "C:/git/arduino/Sketches/libraries/DallasTemperatureControl/",
+                "C:/git/arduino/Sketches/libraries/OneWire/",
+                "C:/git/arduino/Sketches/libraries/PID/",
+                "Z:/Serge/My Documents/Electronique/PL81DPP V2/Sketches/PL81V2"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/cores/arduino/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/variants/standard/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/libraries/EEPROM/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/libraries/SPI/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/libraries/SoftwareSerial/src",
+                    "C:/git/arduino/arduino-1.8.5/hardware/arduino/avr/libraries/Wire/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/avr/include/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/avr/include/avr/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/avr/include/compat/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/avr/include/util/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2/include/",
+                    "C:/git/arduino/arduino-1.8.5/hardware/tools/avr/lib/gcc/avr/4.9.2/include-fixed/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/Bridge/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/Esplora/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/Ethernet/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/Firmata/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/GSM/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/LiquidCrystal/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/Robot_Control/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/RobotIRremote/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/Robot_Motor/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/SD/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/Servo/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/SpacebrewYun/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/Stepper/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/Temboo/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/TFT/src/",
+                    "C:/git/arduino/arduino-1.8.5/libraries/WiFi/src/",
+                    "C:/git/arduino/Sketches/libraries/AmpTransfer/",
+                    "C:/git/arduino/Sketches/libraries/SerialBuffer/",
+                    "C:/git/arduino/Sketches/libraries/Blink/",
+                    "C:/git/arduino/Sketches/libraries/DallasTemperatureControl/",
+                    "C:/git/arduino/Sketches/libraries/OneWire/",
+                    "C:/git/arduino/Sketches/libraries/PID/",
+                    "Z:/Serge/My Documents/Electronique/PL81DPP V2/Sketches/PL81V2"
+                ]
+            },
+            "intelliSenseMode": "msvc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\Users\\dasil\\AppData\\Local\\Arduino15\\packages\\esp8266\\tools\\**",
+                "C:\\Users\\dasil\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.1\\**"
+            ],
+            "forcedInclude": []
+        }
+    ],
+    "version": 4
+}

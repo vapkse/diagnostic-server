@@ -1,0 +1,16 @@
+node_modules
+dist
+*.js
+*.js.map
+*.d.ts
+/now_playing/*
+/logs
+/.vscode/arduino.json
+/.vscode/c_cpp_properties.json
+/cert
+/now_playing
+yarn.lock
+!.eslintrc.js
+/yarn-error.log
+!index.js
+!server.js

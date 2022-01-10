@@ -1,0 +1,4 @@
+Installation du certificat
+• Installer ./tools/certbot-beta-installer-win32.exe sur le pc qui a le serveur http
+• Lancer cmd en admin
+• "C:\Program Files (x86)\Certbot\bin\certbot" certonly --webroot -d vapkse.gotdns.ch -w c:/git/tct/web/dist

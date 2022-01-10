@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.ino": "cpp"
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "arduino.path": "C:/git/arduino/arduino-1.8.5",
+    "arduino.logLevel": "verbose",
+    "arduino.enableUSBDetection": true,
+    "clang-format.language.cpp.enable": false,
+    "clang-format.executable": "C:/Program Files/LLVM/bin/clang-format.exe",
+    "clang-format.language.cpp.style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 500}"
+}

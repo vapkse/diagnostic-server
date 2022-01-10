@@ -1,0 +1,71 @@
+// A launch configuration that compiles the extension and then opens it inside a new window
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Arduino",
+            "type": "arduino",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "targetArchitecture": "arm",
+            "miDebuggerPath": "",
+            "debugServerPath": "",
+            "debugServerArgs": "",
+            "customLaunchSetupCommands": [
+                {
+                    "text": "target remote localhost:3333"
+                },
+                {
+                    "text": "file ${file}"
+                },
+                {
+                    "text": "load"
+                },
+                {
+                    "text": "monitor reset halt"
+                },
+                {
+                    "text": "monitor reset init"
+                }
+            ],
+            "stopAtEntry": true,
+            "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
+            "launchCompleteCommand": "exec-continue",
+            "filterStderr": true,
+            "args": []
+        },
+        {
+            "name": "Arduino attach (Windows)",
+            "type": "cppdbg",
+            "request": "launch",
+            "miDebuggerPath": "C:/git/arduino/arduino-1.8.5/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/bin/arm-none-eabi-gdb.exe",
+            "targetArchitecture": "ARM",
+            "program": "Z:/Serge/My Documents/Electronique/PL81DPP V2/build/${fileBasename}.elf",
+            "setupCommands": [
+                {
+                    "text": "target remote localhost:3333"
+                },
+                {
+                    "text": "file D:/Source/Sketchbook/builds/${fileBasename}.elf"
+                },
+                {
+                    "text": "monitor reset halt"
+                }
+            ],
+            "customLaunchSetupCommands": [
+                {
+                    "text": "monitor reset init"
+                }
+            ],
+            "launchCompleteCommand": "exec-continue",
+            "debugServerPath": "C:/git/arduino/arduino-1.8.5/arduino/tools/openocd/0.9.0-arduino/bin/openocd.exe",
+            "debugServerArgs": "-s \"C:/git/arduino/arduino-1.8.5/arduino/packages/arduino/tools/openocd/0.9.0-arduino/share/openocd/scripts/\" -f \"C:/git/arduino/arduino-1.8.5/arduino/packages/arduino/hardware/samd/1.6.6/variants/arduino_zero/openocd_scripts/arduino_zero.cfg\"",
+            "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
+            "filterStderr": true,
+            "externalConsole": true,
+            "cwd": "${cwd}"
+        },
+    ]
+}
