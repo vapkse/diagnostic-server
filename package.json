@@ -1,6 +1,6 @@
 {
     "name": "diagnostic-server",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Data server for diagnostic2",
     "scripts": {
         "tsc": "tsc",
