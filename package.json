@@ -2,7 +2,6 @@
     "name": "diagnostic-dataserver",
     "version": "3.0.0",
     "description": "Data server for diagnostic2",
-    "private": true,
     "scripts": {
         "tsc": "tsc",
         "tsc:w": "tsc -w",
