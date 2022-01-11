@@ -7,11 +7,11 @@ export const serverIds = [
     'usb-1a86_USB2.0-Serial-if00-port0',
     '!USB\\VID_1A86&PID_7523\\5&2108AD5D&0&7'
 ];
-export const httpsPort = 889;
+export const httpsPort = 443;
 export const httpPort = 890;
 export const env = 'development'; // production
 
-const certDirPath = 'C:/Certbot/live/vapkse.gotdns.ch';
+const certDirPath = 'C:/git/diagnostic-server/cert';
 export const certPath = join(certDirPath, 'cert.pem');
 export const keyPath = join(certDirPath, 'privkey.pem');
 export const caPath = join(certDirPath, 'fullchain.pem');
