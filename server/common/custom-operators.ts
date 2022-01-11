@@ -12,7 +12,7 @@ export const shareReplayLast = <T>(): MonoTypeOperatorFunction<T> => (source$: O
 // Will subscribe to all passed observables with the source observable, but publish only the source observable.
 export const subscribeWith = <T, A extends readonly unknown[]>(...others: [...ObservableInputTuple<A>]): MonoTypeOperatorFunction<T> => (source$: Observable<T>): Observable<T> => {
     const argsOrArgArray = <U>(args: (U | U[])[]): U[] => args.length === 1 && Array.isArray(args[0]) ? args[0] : (args as U[]);
-    const others$ = argsOrArgArray(others) as ObservableInput<T>[];
+    const others$ = argsOrArgArray(others) as ObservableInput<A>[];
     return from(others$).pipe(
         mergeAll(),
         filterMap(() => undefined as never), // stop all the passed observables

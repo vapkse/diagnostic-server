@@ -496,7 +496,7 @@
                     "width": "33%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU17M/photos/",
+            "picturesPath": "../../assets/files/GU17M/photos/",
             "power": "40W",
             "schematics": [{
                     "description": "Final GU17 schematic diagram",
@@ -515,7 +515,7 @@
                     "path": "Entry+CDiff.png"
                 }
             ],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU17M/"
+            "schematicsPath": "assets/files/GU17M/"
         },
         "2": {
             "baseSection": true,
@@ -2109,7 +2109,7 @@
                     "width": "33%"
                 }
             ],
-            "measuresPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/PL81/mesures/",
+            "measuresPath": "../../assets/files/PL81/mesures/",
             "name": "PL81-DPP",
             "paramsInfos": [{
                     "name": "id",
@@ -2631,7 +2631,7 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/PL81/photos/",
+            "picturesPath": "../../assets/files/PL81/photos/",
             "power": "28W",
             "schematics": [{
                     "description": "Final PL81 schematic diagram",
@@ -2654,7 +2654,7 @@
                     "path": "Speaker Protection.png"
                 }
             ],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/PL81/"
+            "schematicsPath": "../../assets/files/PL81/"
         },
         "11": {
             "description": "Modular Amplifier: PL81 Double Push-pull AB2. Left Channel",
@@ -3802,7 +3802,7 @@
                     "path": "IMD 1W.jpg"
                 }
             ],
-            "measuresPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GI30PP/mesures/",
+            "measuresPath": "../../assets/files/GI30PP/mesures/",
             "modFactor": 6,
             "name": "GI30PP",
             "paramsInfos": [{
@@ -4409,14 +4409,14 @@
                     "width": "40%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GI30PP/photos/",
+            "picturesPath": "../../assets/files/GI30PP/photos/",
             "power": "32W",
             "refFactor": 2.112,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GI30PP/",
+            "schematicsPath": "../../assets/files/GI30PP/",
             "steps": [{
                     "range": 0
                 },
@@ -4492,7 +4492,7 @@
                     "path": "IMD 1W.jpg"
                 }
             ],
-            "measuresPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU32PP/mesures/",
+            "measuresPath": "../../assets/files/GU32PP/mesures/",
             "name": "QQE04-20PP-L",
             "pictures": [{
                     "path": "P3230575.jpg",
@@ -4531,14 +4531,14 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU32PP/photos/",
+            "picturesPath": "../../assets/files/GU32PP/photos/",
             "power": "15W",
             "refFactor": 0.9,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU32PP/",
+            "schematicsPath": "../../assets/files/GU32PP/",
             "steps": [
                 null,
                 null,
@@ -4605,7 +4605,7 @@
                     "path": "IMD 1W.jpg"
                 }
             ],
-            "measuresPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU32PP/mesures/",
+            "measuresPath": "../../assets/files/GU32PP/mesures/",
             "name": "QQE04-20PP-R",
             "pictures": [{
                     "path": "P3230575.jpg",
@@ -4644,14 +4644,14 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU32PP/photos/",
+            "picturesPath": "../../assets/files/GU32PP/photos/",
             "power": "15W",
             "refFactor": 0.9,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU32PP/",
+            "schematicsPath": "../../assets/files/GU32PP/",
             "steps": [
                 null,
                 null,
@@ -4835,7 +4835,7 @@
                 "description": "Total harmonic distorsion at 1W",
                 "path": "THD équilibrage reg G2 + CS.jpg"
             }],
-            "measuresPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU19PP/mesures/",
+            "measuresPath": "../../assets/files/GU19PP/mesures/",
             "modFactor": 2,
             "name": "GU19PP",
             "paramsInfos": [{
@@ -5421,14 +5421,14 @@
                     "width": "40%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU19PP/photos/",
+            "picturesPath": "../../assets/files/GU19PP/photos/",
             "power": "21W",
             "refFactor": 2.2,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU19PP/",
+            "schematicsPath": "../../assets/files/GU19PP/",
             "steps": [
                 null,
                 null,
@@ -6076,7 +6076,7 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/6E5P/photos/",
+            "picturesPath": "../../assets/files/6E5P/photos/",
             "power": "30W",
             "schematics": [{
                     "description": "Entry card schematic diagram",
@@ -6099,7 +6099,7 @@
                     "path": "Transformer less power supply.png"
                 }
             ],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/6E5P/"
+            "schematicsPath": "../../assets/files/6E5P/"
         },
         "99": {
             "baseSection": true,
@@ -7461,7 +7461,7 @@
                     "path": "IMD 1W.jpg"
                 }
             ],
-            "measuresPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU17SPUD/mesures/",
+            "measuresPath": "../../assets/files/GU17SPUD/mesures/",
             "name": "QQE03-12SPUD",
             "pictures": [{
                     "path": "P1040391.jpg",
@@ -7472,14 +7472,14 @@
                     "width": "55%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU17SPUD/photos/",
+            "picturesPath": "../../assets/files/GU17SPUD/photos/",
             "power": "8W",
             "refFactor": 0.295,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU17SPUD/",
+            "schematicsPath": "../../assets/files/GU17SPUD/",
             "steps": [
                 null,
                 null,
@@ -7782,7 +7782,7 @@
                     "width": "33%"
                 }
             ],
-            "measuresPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/PL81V2/mesures/",
+            "measuresPath": "../../assets/files/PL81V2/mesures/",
             "modFactor": 1,
             "name": "PL81V2DPP",
             "paramsInfos": [{
@@ -8319,13 +8319,13 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/PL81V2/photos/",
+            "picturesPath": "../../assets/files/PL81V2/photos/",
             "power": "28W",
             "schematics": [{
                 "description": "Final PL81 schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/PL81V2/",
+            "schematicsPath": "../../assets/files/PL81V2/",
             "steps": [
                 null,
                 null,
@@ -8447,7 +8447,7 @@
                     "width": "33%"
                 }
             ],
-            "measuresPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU17R/mesures/",
+            "measuresPath": "../../assets/files/GU17R/mesures/",
             "modInfo": {
                 "dataValueIndex": 3,
                 "dataValueName": "temp",
@@ -8472,14 +8472,14 @@
                     "width": "33%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU17R/photos/",
+            "picturesPath": "../../assets/files/GU17R/photos/",
             "power": "11W",
             "refFactor": 0.7,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/GU17R/",
+            "schematicsPath": "../../assets/files/GU17R/",
             "steps": [
                 null,
                 null,
@@ -11553,7 +11553,7 @@
                     "path": "THD 1KHZ 8W.jpg"
                 }
             ],
-            "measuresPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/807SE/mesures/",
+            "measuresPath": "../../assets/files/807SE/mesures/",
             "name": "807SE",
             "pictures": [{
                     "path": "P6070663.jpg",
@@ -11592,14 +11592,14 @@
                     "width": "40%"
                 }
             ],
-            "picturesPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/807SE/photos/",
+            "picturesPath": "../../assets/files/807SE/photos/",
             "power": "8W",
             "refFactor": 0.99,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "https://gitlab.com/botoela/diagnostic-server/raw/master/assets/files/807SE/",
+            "schematicsPath": "../../assets/files/807SE/",
             "steps": [
                 null,
                 null,
