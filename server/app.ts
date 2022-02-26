@@ -24,7 +24,7 @@ export const serve = () => {
 
     app.all('*', (_req: Request, res: Response, next) => {
         res.header('Access-Control-Allow-Origin', '*');
-        res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DEconstE, OPTIONS');
+        res.header('Access-Control-Allow-Methods', 'POST');
         res.header('Access-Control-Allow-Headers', 'Content-Type');
         next();
     });
@@ -136,4 +136,4 @@ export const serve = () => {
         const msg = (!e.message && !e.stack && JSON.stringify(e)) || e.message || e.stack;
         Logger.log('Process', 'red', 'Application', String(msg));
     });
-}
+};

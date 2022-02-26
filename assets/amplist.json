@@ -496,7 +496,7 @@
                     "width": "33%"
                 }
             ],
-            "picturesPath": "../../assets/files/GU17M/photos/",
+            "picturesPath": "files/GU17M/photos/",
             "power": "40W",
             "schematics": [{
                     "description": "Final GU17 schematic diagram",
@@ -515,7 +515,7 @@
                     "path": "Entry+CDiff.png"
                 }
             ],
-            "schematicsPath": "assets/files/GU17M/"
+            "schematicsPath": "files/GU17M/"
         },
         "2": {
             "baseSection": true,
@@ -2109,7 +2109,7 @@
                     "width": "33%"
                 }
             ],
-            "measuresPath": "../../assets/files/PL81/mesures/",
+            "measuresPath": "files/PL81/mesures/",
             "name": "PL81-DPP",
             "paramsInfos": [{
                     "name": "id",
@@ -2631,7 +2631,7 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "../../assets/files/PL81/photos/",
+            "picturesPath": "files/PL81/photos/",
             "power": "28W",
             "schematics": [{
                     "description": "Final PL81 schematic diagram",
@@ -2654,7 +2654,7 @@
                     "path": "Speaker Protection.png"
                 }
             ],
-            "schematicsPath": "../../assets/files/PL81/"
+            "schematicsPath": "files/PL81/"
         },
         "11": {
             "description": "Modular Amplifier: PL81 Double Push-pull AB2. Left Channel",
@@ -3802,7 +3802,7 @@
                     "path": "IMD 1W.jpg"
                 }
             ],
-            "measuresPath": "../../assets/files/GI30PP/mesures/",
+            "measuresPath": "files/GI30PP/mesures/",
             "modFactor": 6,
             "name": "GI30PP",
             "paramsInfos": [{
@@ -4409,14 +4409,14 @@
                     "width": "40%"
                 }
             ],
-            "picturesPath": "../../assets/files/GI30PP/photos/",
+            "picturesPath": "files/GI30PP/photos/",
             "power": "32W",
             "refFactor": 2.112,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "../../assets/files/GI30PP/",
+            "schematicsPath": "files/GI30PP/",
             "steps": [{
                     "range": 0
                 },
@@ -4492,7 +4492,7 @@
                     "path": "IMD 1W.jpg"
                 }
             ],
-            "measuresPath": "../../assets/files/GU32PP/mesures/",
+            "measuresPath": "files/GU32PP/mesures/",
             "name": "QQE04-20PP-L",
             "pictures": [{
                     "path": "P3230575.jpg",
@@ -4531,14 +4531,14 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "../../assets/files/GU32PP/photos/",
+            "picturesPath": "files/GU32PP/photos/",
             "power": "15W",
             "refFactor": 0.9,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "../../assets/files/GU32PP/",
+            "schematicsPath": "files/GU32PP/",
             "steps": [
                 null,
                 null,
@@ -4605,7 +4605,7 @@
                     "path": "IMD 1W.jpg"
                 }
             ],
-            "measuresPath": "../../assets/files/GU32PP/mesures/",
+            "measuresPath": "files/GU32PP/mesures/",
             "name": "QQE04-20PP-R",
             "pictures": [{
                     "path": "P3230575.jpg",
@@ -4644,14 +4644,14 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "../../assets/files/GU32PP/photos/",
+            "picturesPath": "files/GU32PP/photos/",
             "power": "15W",
             "refFactor": 0.9,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "../../assets/files/GU32PP/",
+            "schematicsPath": "files/GU32PP/",
             "steps": [
                 null,
                 null,
@@ -4687,6 +4687,7 @@
             "visible": false
         },
         "35": {
+            "visible": false,
             "amplificationfactor": 6.9,
             "bandwidth": "10HZ-100KHZ (-3db)",
             "controlsPanel": [
@@ -4835,7 +4836,7 @@
                 "description": "Total harmonic distorsion at 1W",
                 "path": "THD équilibrage reg G2 + CS.jpg"
             }],
-            "measuresPath": "../../assets/files/GU19PP/mesures/",
+            "measuresPath": "files/GU19PP/mesures/",
             "modFactor": 2,
             "name": "GU19PP",
             "paramsInfos": [{
@@ -5421,14 +5422,14 @@
                     "width": "40%"
                 }
             ],
-            "picturesPath": "../../assets/files/GU19PP/photos/",
+            "picturesPath": "files/GU19PP/photos/",
             "power": "21W",
             "refFactor": 2.2,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "../../assets/files/GU19PP/",
+            "schematicsPath": "files/GU19PP/",
             "steps": [
                 null,
                 null,
@@ -6076,7 +6077,7 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "../../assets/files/6E5P/photos/",
+            "picturesPath": "files/6E5P/photos/",
             "power": "30W",
             "schematics": [{
                     "description": "Entry card schematic diagram",
@@ -6099,7 +6100,7 @@
                     "path": "Transformer less power supply.png"
                 }
             ],
-            "schematicsPath": "../../assets/files/6E5P/"
+            "schematicsPath": "files/6E5P/"
         },
         "99": {
             "baseSection": true,
@@ -7461,7 +7462,7 @@
                     "path": "IMD 1W.jpg"
                 }
             ],
-            "measuresPath": "../../assets/files/GU17SPUD/mesures/",
+            "measuresPath": "files/GU17SPUD/mesures/",
             "name": "QQE03-12SPUD",
             "pictures": [{
                     "path": "P1040391.jpg",
@@ -7472,14 +7473,14 @@
                     "width": "55%"
                 }
             ],
-            "picturesPath": "../../assets/files/GU17SPUD/photos/",
+            "picturesPath": "files/GU17SPUD/photos/",
             "power": "8W",
             "refFactor": 0.295,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "../../assets/files/GU17SPUD/",
+            "schematicsPath": "files/GU17SPUD/",
             "steps": [
                 null,
                 null,
@@ -7782,7 +7783,7 @@
                     "width": "33%"
                 }
             ],
-            "measuresPath": "../../assets/files/PL81V2/mesures/",
+            "measuresPath": "files/PL81V2/mesures/",
             "modFactor": 1,
             "name": "PL81V2DPP",
             "paramsInfos": [{
@@ -8319,13 +8320,13 @@
                     "width": "50%"
                 }
             ],
-            "picturesPath": "../../assets/files/PL81V2/photos/",
+            "picturesPath": "files/PL81V2/photos/",
             "power": "28W",
             "schematics": [{
                 "description": "Final PL81 schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "../../assets/files/PL81V2/",
+            "schematicsPath": "files/PL81V2/",
             "steps": [
                 null,
                 null,
@@ -8447,7 +8448,7 @@
                     "width": "33%"
                 }
             ],
-            "measuresPath": "../../assets/files/GU17R/mesures/",
+            "measuresPath": "files/GU17R/mesures/",
             "modInfo": {
                 "dataValueIndex": 3,
                 "dataValueName": "temp",
@@ -8472,14 +8473,14 @@
                     "width": "33%"
                 }
             ],
-            "picturesPath": "../../assets/files/GU17R/photos/",
+            "picturesPath": "files/GU17R/photos/",
             "power": "11W",
             "refFactor": 0.7,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "../../assets/files/GU17R/",
+            "schematicsPath": "files/GU17R/",
             "steps": [
                 null,
                 null,
@@ -8530,6 +8531,7 @@
             "visible": false
         },
         "200": {
+            "visible": false,
             "amplificationfactor": 9,
             "bandwidth": "",
             "controlsPanel": [
@@ -10030,6 +10032,7 @@
             "visible": false
         },
         "220": {
+            "visible": false,
             "amplificationfactor": 9,
             "bandwidth": "",
             "controlsPanel": [
@@ -11553,7 +11556,7 @@
                     "path": "THD 1KHZ 8W.jpg"
                 }
             ],
-            "measuresPath": "../../assets/files/807SE/mesures/",
+            "measuresPath": "files/807SE/mesures/",
             "name": "807SE",
             "pictures": [{
                     "path": "P6070663.jpg",
@@ -11592,14 +11595,14 @@
                     "width": "40%"
                 }
             ],
-            "picturesPath": "../../assets/files/807SE/photos/",
+            "picturesPath": "files/807SE/photos/",
             "power": "8W",
             "refFactor": 0.99,
             "schematics": [{
                 "description": "Main schematic diagram",
                 "path": "Amplifier.png"
             }],
-            "schematicsPath": "../../assets/files/807SE/",
+            "schematicsPath": "files/807SE/",
             "steps": [
                 null,
                 null,
