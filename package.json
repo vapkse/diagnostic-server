@@ -1,13 +1,14 @@
 {
     "name": "diagnostic-server",
-    "version": "3.0.4",
+    "version": "3.0.5",
     "description": "Data server for diagnostic2",
     "scripts": {
         "tsc": "tsc",
         "tsc:w": "tsc -w",
         "start": "ts-node ./server/app.ts",
         "lint": "eslint server --ext .ts",
-        "nodemon": "nodemon --watch ./dist ./dist/app.js"
+        "nodemon": "nodemon --watch ./dist ./dist/app.js",
+        "publish": "npm publish"
     },
     "engines": {
         "node": ">=16.0.0"
