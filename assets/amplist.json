@@ -8530,6 +8530,1663 @@
             "valueFactor": 0.7,
             "visible": false
         },
+        "148": {
+            "amplificationfactor": 5.5,
+            "bandwidth": "<10HZ-66KHZ",
+            "controlsPanel": [
+                "reset",
+                "resetModulation",
+                "stop"
+            ],
+            "dampingfactor": "20-30",
+            "description": "6E5P Amplifier: 6E5P Triple Push-pull SPUD AB1.",
+            "id": 148,
+            "inverter": false,
+            "name": "6E5P-3PP",
+            "paramsInfos": [{
+                    "name": "id",
+                    "type": "word8"
+                },
+                {
+                    "name": "msg",
+                    "type": "word8"
+                },
+                {
+                    "name": "errorNumber",
+                    "type": "word8"
+                },
+                {
+                    "name": "extraValue",
+                    "type": "word8"
+                },
+                {
+                    "name": "workingPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Working Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startWorkingPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Start Working Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "minWorkingPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Min Working Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "maxWorkingPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Max Working Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "minPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Min Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "maxPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Max Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "tempMeasureInterval",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Temp. Meas. Interval(s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "tempRegulatorMax",
+                    "slider": {
+                        "factor": 1,
+                        "max": 200,
+                        "min": 1,
+                        "title": "Temp. Reg. Max (°C)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "tempRegulatorFactor",
+                    "type": "word8"
+                },
+                {
+                    "name": "tempRegulatorOffset",
+                    "type": "word8"
+                },
+                {
+                    "name": "dischargeMinTime",
+                    "slider": {
+                        "factor": 0,
+                        "max": 30,
+                        "min": 0,
+                        "title": "Discharge Min Time (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "dischargeMaxTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 60,
+                        "min": 1,
+                        "title": "Discharge MaxTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "heatMinTime",
+                    "type": "word8"
+                },
+                {
+                    "name": "heatMaxTime",
+                    "type": "word8"
+                },
+                {
+                    "name": "highVoltageMaxTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 60,
+                        "min": 1,
+                        "title": "Starting MaxTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulatedMinTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 20,
+                        "min": 1,
+                        "title": "Regulated MinTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationMaxTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Reg. MaxTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "outOfRangeMaxTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "OutOfRange Max (min)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "errorMaxTime",
+                    "slider": {
+                        "factor": 0.1,
+                        "max": 25,
+                        "min": 0.1,
+                        "step": 0.1,
+                        "title": "Error MaxTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "emergencyStopDelay",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Emerg. stop delay (ms)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startP",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Start P"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startI",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Start I"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startD",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Start D"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationP",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Regulation P"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationI",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Regulation I"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationD",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Regulation D"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "functionP",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Function P"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "functionI",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Function I"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startingTreshold",
+                    "slider": {
+                        "factor": 1,
+                        "max": 200,
+                        "min": 1,
+                        "title": "Start Treeshold"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationTreshold",
+                    "slider": {
+                        "factor": 1,
+                        "max": 200,
+                        "min": 1,
+                        "title": "Reg. Treeshold"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "functionTreshold",
+                    "slider": {
+                        "factor": 1,
+                        "max": 200,
+                        "min": 1,
+                        "title": "Func. Treeshold"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "measureAverageRatio",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Meas. Average Ratio"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "tempAverageRatio",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Temp. Average Ratio"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "phaseDetectionErrorMaxCount",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Phase Error MaxCount (loop)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "buttonPressedMinTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Btn Pressed Min Time (ms)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "buttonPressedModeTime",
+                    "slider": {
+                        "factor": 100,
+                        "max": 25500,
+                        "min": 0,
+                        "step": 100,
+                        "title": "Btn Pressed Mode Time (ms)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "buttonPressedStandByTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 10,
+                        "min": 0,
+                        "title": "Btn Pressed Stdby Time (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "buttonPressedResetTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 20,
+                        "min": 0,
+                        "title": "Btn Pressed Reset Time (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "indicatorDisplayModeMaxTime",
+                    "slider": {
+                        "factor": 100,
+                        "max": 25500,
+                        "min": 0,
+                        "step": 100,
+                        "title": "Ind. Display Mode Max Time (ms)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "indicatorMeasureFactor",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Indicator Measure Factor"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "indicatorPercentFactor",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Indicator Max Percent Factor"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "indicatorDampingFactor",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Indicator Damping Factor"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "indicatorMode",
+                    "type": "word8"
+                },
+                {
+                    "name": "autoWriteEepromDelay",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Auto Save Params Delay (min)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "display",
+                    "type": "word8"
+                },
+                {
+                    "name": "modulationPeakAverageRatio",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Mod. Average Ratio"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "modulationPeakReductionFactor",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Mod. Reduction Factor"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "modulationPeakReductionTime",
+                    "slider": {
+                        "factor": 100,
+                        "max": 25500,
+                        "min": 100,
+                        "step": 100,
+                        "title": "Mod. Reduction Time (ms)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "modulationDetectedMinTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Mod. Detect Min (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "modulationLimit25",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Mod. Limit 25%"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "modulationLimit50",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Mod. Limit 50%"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "modulationLimit75",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Mod. Limit 75%"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "modulationLimit100",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Mod. Limit 100%"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "controlsFlags",
+                    "toggles": [{
+                            "flag": 1,
+                            "flagName": "workingPointAuto",
+                            "title": "Working Point Auto"
+                        },
+                        {
+                            "flag": 2,
+                            "flagName": "differentialFeedback",
+                            "title": "Differential Feedback"
+                        }
+                    ],
+                    "type": "word8"
+                }
+            ],
+            "pictures": [],
+            "picturesPath": "files/6E5P/photos/",
+            "power": "20W",
+            "schematics": [{
+                    "description": "Entry card schematic diagram",
+                    "path": "Entry.png"
+                },
+                {
+                    "description": "Final 6E5P schematic diagram",
+                    "path": "Final 6E5P.png"
+                },
+                {
+                    "description": "Speaker protection schematic diagram",
+                    "path": "Speaker Protection.png"
+                },
+                {
+                    "description": "Transformer less power supply schematic diagram",
+                    "path": "Transformer less power supply.png"
+                }
+            ],
+            "schematicsPath": "files/6E5P/"
+        },
+        "149": {
+            "baseSection": true,
+            "description": "Common section for 6E5P Triple Push-pull SPUD, 6E5P card",
+            "id": 149,
+            "paramsInfos": [{
+                    "name": "id",
+                    "type": "word8"
+                },
+                {
+                    "name": "msg",
+                    "type": "word8"
+                },
+                {
+                    "name": "errorNumber",
+                    "type": "word8"
+                },
+                {
+                    "name": "extraValue",
+                    "type": "word8"
+                },
+                {
+                    "name": "workingPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Working Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startWorkingPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Start Working Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "minWorkingPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Min Working Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "maxWorkingPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Max Working Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "minPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Min Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "maxPoint",
+                    "slider": {
+                        "factor": 0.392,
+                        "max": 100,
+                        "min": 0,
+                        "title": "Max Point (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "tempMeasureInterval",
+                    "slider": {
+                        "factor": 0.1,
+                        "max": 25,
+                        "min": 0.1,
+                        "step": 0.1,
+                        "title": "Temp. Meas. Interval(s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "tempRegulatorMax",
+                    "slider": {
+                        "factor": 1,
+                        "max": 200,
+                        "min": 1,
+                        "title": "Temp. Reg. Max (°C)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "tempRegulatorFactor",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Temp. Reg. Factor (%)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "tempRegulatorOffset",
+                    "slider": {
+                        "factor": 1,
+                        "max": 200,
+                        "min": 0,
+                        "title": "Temp. Reg. Offset"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "dischargeMinTime",
+                    "slider": {
+                        "factor": 0,
+                        "max": 30,
+                        "min": 0,
+                        "title": "Discharge Min Time (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "dischargeMaxTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 60,
+                        "min": 1,
+                        "title": "Discharge MaxTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "heatMinTime",
+                    "type": "word8"
+                },
+                {
+                    "name": "heatMaxTime",
+                    "type": "word8"
+                },
+                {
+                    "name": "highVoltageMaxTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 60,
+                        "min": 1,
+                        "title": "Starting MaxTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulatedMinTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 20,
+                        "min": 1,
+                        "title": "Regulated MinTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationMaxTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Reg. MaxTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "outOfRangeMaxTime",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "OutOfRange Max (min)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "errorMaxTime",
+                    "slider": {
+                        "factor": 0.1,
+                        "max": 25,
+                        "min": 0.1,
+                        "step": 0.1,
+                        "title": "Error MaxTime (s)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "emergencyStopDelay",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Emerg. stop delay (ms)"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startP",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Start P"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startI",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Start I"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startD",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Start D"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationP",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Regulation P"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationI",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Regulation I"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationD",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Regulation D"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "functionP",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Function P"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "functionI",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 0,
+                        "title": "Function I"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "startingTreshold",
+                    "slider": {
+                        "factor": 1,
+                        "max": 200,
+                        "min": 1,
+                        "title": "Start Treeshold"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "regulationTreshold",
+                    "slider": {
+                        "factor": 1,
+                        "max": 200,
+                        "min": 1,
+                        "title": "Reg. Treeshold"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "functionTreshold",
+                    "slider": {
+                        "factor": 1,
+                        "max": 200,
+                        "min": 1,
+                        "title": "Func. Treeshold"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "measureAverageRatio",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Meas. Average Ratio"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "tempAverageRatio",
+                    "slider": {
+                        "factor": 1,
+                        "max": 255,
+                        "min": 1,
+                        "title": "Temp. Average Ratio"
+                    },
+                    "type": "word8"
+                },
+                {
+                    "name": "phaseDetectionErrorMaxCount",
+                    "type": "word8"
+                }
+            ],
+            "refFactor": 0.27,
+            "steps": [{
+                    "range": 0
+                },
+                null,
+                {
+                    "range": 8
+                },
+                {
+                    "range": 35
+                },
+                {
+                    "range": 22
+                },
+                {
+                    "range": 35
+                },
+                {
+                    "label": "",
+                    "range": 0
+                },
+                {
+                    "labelColor": "hsl(0, 79%, 50%)",
+                    "range": 0
+                }
+            ],
+            "tubes": [{
+                    "name": "6E5P"
+                },
+                {
+                    "name": "6E5P"
+                }
+            ],
+            "valueFactor": 0.27
+        },
+        "150": {
+            "id": 150,
+            "inherits": 148,
+            "name": "6E5P Left Channel",
+            "paramsPanelTitle": "6E5P-3PP left channel globals parameters",
+            "visible": false
+        },
+        "151": {
+            "dataInfos": [{
+                    "name": "id",
+                    "type": "word8"
+                },
+                {
+                    "name": "msg",
+                    "type": "word8"
+                },
+                {
+                    "name": "errorNumber",
+                    "type": "word8"
+                },
+                {
+                    "name": "extraValue",
+                    "type": "word8"
+                },
+                {
+                    "name": "step",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptelaps",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepvmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepval",
+                    "type": "word8"
+                },
+                {
+                    "name": "tick",
+                    "type": "word8"
+                },
+                {
+                    "name": "min",
+                    "type": "word8"
+                },
+                {
+                    "name": "ref",
+                    "type": "word8"
+                },
+                {
+                    "name": "max",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "out",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "val",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                        "name": "Reg Temp",
+                        "type": "word8"
+                    }],
+                    "name": "temp",
+                    "type": "array"
+                },
+                {
+                    "name": "mod",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "name": "modLimit25",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit50",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit75",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit100",
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "modlimits",
+                    "type": "array"
+                }
+            ],
+            "description": "Tube 1",
+            "id": 151,
+            "inherits": 149,
+            "master": 150,
+            "modFactor": 2,
+            "paramsPanelTitle": "6E5P-3PP left channel tube 1 parameters",
+            "visible": false
+        },
+        "152": {
+            "dataInfos": [{
+                    "name": "id",
+                    "type": "word8"
+                },
+                {
+                    "name": "msg",
+                    "type": "word8"
+                },
+                {
+                    "name": "errorNumber",
+                    "type": "word8"
+                },
+                {
+                    "name": "extraValue",
+                    "type": "word8"
+                },
+                {
+                    "name": "step",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptelaps",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepvmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepval",
+                    "type": "word8"
+                },
+                {
+                    "name": "tick",
+                    "type": "word8"
+                },
+                {
+                    "name": "min",
+                    "type": "word8"
+                },
+                {
+                    "name": "ref",
+                    "type": "word8"
+                },
+                {
+                    "name": "max",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "out",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "val",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                        "name": "Air Temp",
+                        "type": "word8"
+                    }],
+                    "name": "temp",
+                    "type": "array"
+                },
+                {
+                    "name": "mod",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "name": "modLimit25",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit50",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit75",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit100",
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "modlimits",
+                    "type": "array"
+                }
+            ],
+            "description": "Tube 2",
+            "id": 152,
+            "inherits": 149,
+            "master": 150,
+            "paramsPanelTitle": "6E5P-3PP left channel tube 2 parameters",
+            "visible": false
+        },
+        "153": {
+            "dataInfos": [{
+                    "name": "id",
+                    "type": "word8"
+                },
+                {
+                    "name": "msg",
+                    "type": "word8"
+                },
+                {
+                    "name": "errorNumber",
+                    "type": "word8"
+                },
+                {
+                    "name": "extraValue",
+                    "type": "word8"
+                },
+                {
+                    "name": "step",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptelaps",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepvmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepval",
+                    "type": "word8"
+                },
+                {
+                    "name": "tick",
+                    "type": "word8"
+                },
+                {
+                    "name": "min",
+                    "type": "word8"
+                },
+                {
+                    "name": "ref",
+                    "type": "word8"
+                },
+                {
+                    "name": "max",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "out",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "val",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                        "name": "12V PS Temp",
+                        "type": "word8"
+                    }],
+                    "name": "temp",
+                    "type": "array"
+                },
+                {
+                    "name": "mod",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "name": "modLimit25",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit50",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit75",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit100",
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "modlimits",
+                    "type": "array"
+                }
+            ],
+            "description": "Tube 3",
+            "id": 153,
+            "inherits": 149,
+            "master": 150,
+            "paramsPanelTitle": "6E5P-3PP left channel tube 3 parameters",
+            "visible": false
+        },
+        "160": {
+            "id": 160,
+            "inherits": 148,
+            "name": "6E5P Right Channel",
+            "paramsPanelTitle": "6E5P-3PP right channel global parameters",
+            "visible": false
+        },
+        "161": {
+            "dataInfos": [{
+                    "name": "id",
+                    "type": "word8"
+                },
+                {
+                    "name": "msg",
+                    "type": "word8"
+                },
+                {
+                    "name": "errorNumber",
+                    "type": "word8"
+                },
+                {
+                    "name": "extraValue",
+                    "type": "word8"
+                },
+                {
+                    "name": "step",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptelaps",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepvmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepval",
+                    "type": "word8"
+                },
+                {
+                    "name": "tick",
+                    "type": "word8"
+                },
+                {
+                    "name": "min",
+                    "type": "word8"
+                },
+                {
+                    "name": "ref",
+                    "type": "word8"
+                },
+                {
+                    "name": "max",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "out",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "val",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                        "name": "Reg Temp",
+                        "type": "word8"
+                    }],
+                    "name": "temp",
+                    "type": "array"
+                },
+                {
+                    "name": "mod",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "name": "modLimit25",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit50",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit75",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit100",
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "modlimits",
+                    "type": "array"
+                }
+            ],
+            "description": "Tube 1",
+            "id": 161,
+            "inherits": 149,
+            "master": 160,
+            "modFactor": 2,
+            "paramsPanelTitle": "6E5P-3PP right channel tube 1 parameters",
+            "visible": false
+        },
+        "162": {
+            "dataInfos": [{
+                    "name": "id",
+                    "type": "word8"
+                },
+                {
+                    "name": "msg",
+                    "type": "word8"
+                },
+                {
+                    "name": "errorNumber",
+                    "type": "word8"
+                },
+                {
+                    "name": "extraValue",
+                    "type": "word8"
+                },
+                {
+                    "name": "step",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptelaps",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepvmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepval",
+                    "type": "word8"
+                },
+                {
+                    "name": "tick",
+                    "type": "word8"
+                },
+                {
+                    "name": "min",
+                    "type": "word8"
+                },
+                {
+                    "name": "ref",
+                    "type": "word8"
+                },
+                {
+                    "name": "max",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "out",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "val",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                        "name": "Air Temp",
+                        "type": "word8"
+                    }],
+                    "name": "temp",
+                    "type": "array"
+                },
+                {
+                    "name": "mod",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "name": "modLimit25",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit50",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit75",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit100",
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "modlimits",
+                    "type": "array"
+                }
+            ],
+            "description": "Tube 2",
+            "id": 162,
+            "inherits": 149,
+            "master": 160,
+            "paramsPanelTitle": "6E5P-3PP right channel tube 2 parameters",
+            "visible": false
+        },
+        "163": {
+            "dataInfos": [{
+                    "name": "id",
+                    "type": "word8"
+                },
+                {
+                    "name": "msg",
+                    "type": "word8"
+                },
+                {
+                    "name": "errorNumber",
+                    "type": "word8"
+                },
+                {
+                    "name": "extraValue",
+                    "type": "word8"
+                },
+                {
+                    "name": "step",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "steptelaps",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepvmax",
+                    "type": "word8"
+                },
+                {
+                    "name": "stepval",
+                    "type": "word8"
+                },
+                {
+                    "name": "tick",
+                    "type": "word8"
+                },
+                {
+                    "name": "min",
+                    "type": "word8"
+                },
+                {
+                    "name": "ref",
+                    "type": "word8"
+                },
+                {
+                    "name": "max",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "out",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                            "type": "word8"
+                        },
+                        {
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "val",
+                    "type": "array"
+                },
+                {
+                    "fields": [{
+                        "name": "12V PS Temp",
+                        "type": "word8"
+                    }],
+                    "name": "temp",
+                    "type": "array"
+                },
+                {
+                    "name": "mod",
+                    "type": "word8"
+                },
+                {
+                    "fields": [{
+                            "name": "modLimit25",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit50",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit75",
+                            "type": "word8"
+                        },
+                        {
+                            "name": "modLimit100",
+                            "type": "word8"
+                        }
+                    ],
+                    "name": "modlimits",
+                    "type": "array"
+                }
+            ],
+            "description": "Tube 3",
+            "id": 163,
+            "inherits": 149,
+            "master": 160,
+            "paramsPanelTitle": "6E5P-3PP right channel tube 3 parameters",
+            "visible": false
+        },
         "200": {
             "visible": false,
             "amplificationfactor": 9,
