@@ -1,5 +1,5 @@
 import { catchError, debounceTime, delay, delayWhen, filter, interval, map, mergeWith, Observable, of, repeat, retry, share, skip, switchMap, take, tap, throwError, timer } from 'rxjs';
-import SerialPort, { UpdateOptions } from 'serialport';
+import { SerialPort } from 'serialport';
 import struct from 'struct';
 
 import { AmpDataHeader, AmpErrors, AmpInfo, AmpInfoInterface, AmpParamsRequest, AmpRequest, AmpRequestResponse, AmpResponse, FieldInfo, serialBufferMaxLength } from './common/amp';
@@ -32,7 +32,7 @@ export class SerialPortService {
 
     private port$: Observable<SerialPort>;
 
-    public constructor(public portOrIp: string, serialOptions?: UpdateOptions) {
+    public constructor(public portOrIp: string, baudRate: number) {
         const requestStruct = struct()
             .word8('hdr1')
             .word8('hdr2')
@@ -52,7 +52,7 @@ export class SerialPortService {
 
         const openPort$ = (): Observable<SerialPort> => new Observable<SerialPort>(observer$ => {
             // *********** ATTENTION: Si erreur de compile ici, modifier le .d.ts ***********
-            const serport = new SerialPort(portOrIp, serialOptions, error => {
+            const serport = new SerialPort({ path: portOrIp, baudRate }, error => {
                 if (error) {
                     observer$.error(error);
                 } else if (!serport.readable && !serport.open) {

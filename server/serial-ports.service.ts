@@ -1,5 +1,5 @@
 import { debounceTime, filter, from, interval, map, mergeMap, mergeWith, Observable, of, switchMap, take, tap, throwError } from 'rxjs';
-import SerialPort from 'serialport';
+import { SerialPort } from 'serialport';
 
 import { AmpRequestResponse } from './common/amp';
 import { serverIds } from './config';
@@ -22,7 +22,7 @@ export class SerialPortsService {
         this.ports$ = interval(1000).pipe(
             mergeMap(() => {
                 // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-explicit-any
-                const list = (SerialPort.Binding as any).list() as Promise<ReadonlyArray<SerialPort.PortInfo>>;
+                const list = SerialPort.list();
                 const list$ = from(list);
                 return list$.pipe(
                     mergeMap(ports => ports),
@@ -31,7 +31,7 @@ export class SerialPortsService {
                         return !!portId && !this.availablePorts.has(port.path) && serverIds.some(id => portId.startsWith(id)) && !serverIds.some(id => (`!${portId}`).startsWith(id));
                     }),
                     mergeMap(port => {
-                        const sp = new SerialPortService(port.path, { baudRate: 115200 });
+                        const sp = new SerialPortService(port.path, 115200);
                         this.availablePorts.set(port.path, sp);
 
                         const disconnected$ = sp.disconnected$.pipe(
