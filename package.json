@@ -5,9 +5,8 @@
     "scripts": {
         "tsc": "tsc",
         "tsc:w": "tsc -w",
-        "start": "ts-node ./server/app.ts",
         "lint": "eslint server --ext .ts",
-        "nodemon": "nodemon --watch ./dist ./dist/app.js",
+        "start": "nodemon --watch ./dist ./dist/server.js",
         "publish": "npm publish"
     },
     "engines": {
